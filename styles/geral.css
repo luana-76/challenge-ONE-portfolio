@@ -1,0 +1,64 @@
+/* Padrão */
+
+body{
+
+    box-sizing: border-box;
+    background:#F5F5F5;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.boxAlignment{
+
+    margin: 0 auto;
+    width: 79vw;
+
+}
+
+a{color: #464646;text-decoration: none;}
+
+.fontBold{font-weight: 700;}
+
+.internalNavigation,
+.internalNavigation li{
+
+    display: inline;
+    list-style: none;
+    padding:0;
+
+}
+
+.internalNavigation .spaceLeft{margin-left: 32px;}
+
+.middle{vertical-align: middle;}
+
+.subTitulos{
+
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+#skillsHobbies h2,
+#academicTrainingSession h2,
+#professionalExperienceSession h2,
+#academicaTwo h2{text-align: center;}
+
+button,
+input[type='submit']{
+
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Raleway';
+
+}
+
+.normalButton:hover{background: #D4E4FA;}
+.blueButton:hover,
+#button:hover{background: #5595E9;}

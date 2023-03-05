@@ -1,0 +1,146 @@
+#contactSection{
+    
+    background: #EAF2FD;
+    padding: 128px 0 64px 0;
+    
+}
+
+#internalAlignmentOfTheContactBox{display: flex;}
+
+#formBox{
+
+    margin-left: 16px;
+    width: 45vw;
+
+}
+
+#sectionText{width: 100%;}
+#sectionText h2{
+
+    font-weight: 700;
+    font-size: 32px;
+    margin:0;
+
+}
+#sectionText p{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 8px 0 32px 0;
+
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputBox{
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 56px;
+    margin-bottom: 32px;
+    width: 100%;
+    
+}
+.inputBox label{
+
+    padding-left: 12px;
+    font-size: 12px;
+
+}
+.inputBox:hover label{color: #2A7AE4;}
+
+.inputBox input{
+
+    border: none;
+    font-family: 'Raleway';
+    font-size: 16px;
+    height: 20px;
+    outline: none;
+    padding-left: 12px;
+    padding: 4px 0 10px 12px;
+
+}
+.inputBox input:focus{border-bottom: 2px solid #2A7AE4;}
+
+.inputBox label,
+.inputBox input{
+
+    color: #A2A2A2;
+    display: block;
+    font-weight: 400;
+    width: 43vw;
+
+}
+
+.subInputBox{padding: 8px 0 0 0;}
+
+form textarea{
+
+    border: none;
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    font-size: 16px;
+    height: 133px;
+    outline: none;
+    padding: 16px 0 0 12px;
+    width: 98%;
+
+}
+
+
+#button{
+
+    height: 51px;
+    margin-top: 32px;
+    width: 165px;
+
+}
+
+/* parte do copyright */
+
+#copyright{padding: 32px 0;}
+
+#copyright p{
+
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 1042px){
+
+    #contactSection {padding: 32px 0;}
+    #internalAlignmentOfTheContactBox img{display: none;}
+
+    #formBox{margin: 0;}
+
+    #internalAlignmentOfTheContactBox,
+    #formBox{width: 100%;}
+
+    #sectionText h2{font-size: 22px;}
+
+    .inputBox label,
+    .inputBox input {width: 85vw;}
+
+}
+
+@media screen and (max-width: 690px){
+
+    .inputBox label,
+    .inputBox input {width: 84vw;}
+
+}
+
+@media screen and (max-width: 459px){
+
+    .inputBox label,
+    .inputBox input {width: 83vw;}
+
+}

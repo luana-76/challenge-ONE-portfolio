@@ -1,0 +1,75 @@
+#professionalExperienceSession{padding-top: 32px;}
+#professionalExperienceSession img{width: 53vw;}
+
+/* Classes globais dessa sessão */
+.bottomSpace{margin-bottom: 53.5px;}
+.reverse{margin:0 0 0 40px;}
+
+.aligningSmallerBoxes{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.experienceBoxContents{margin-left: 26px;}
+.experienceBoxContents h3{
+    font-weight: 700;
+    font-size: 19px;
+    margin:0 0 8px 0;
+}
+.experienceBoxContents span{
+    font-weight: 500;
+    font-size: 16px;
+}
+.experienceBoxContents .boxButtons button{
+
+    height: 51px;
+    margin-top: 8px;
+    width: 105px;
+
+}
+
+.normalButton{
+
+    border: 1px solid #1f64be;
+    color: #2A7AE4;
+    margin-right: 10px;
+
+}
+
+.blueButton{
+
+    border: none;
+    background: #2A7AE4;
+    color:#fff;
+
+}
+
+@media screen and (max-width: 930px){
+
+    .reverse{margin:0 0 16px 0;}
+
+    .aligningSmallerBoxes {
+
+        align-items: normal;
+        flex-direction: column;
+
+    }
+    #professionalExperienceSession img{width:100%;}
+    .experienceBoxContents{
+        order: 2;
+        margin:16px 0 0 0;
+    }
+    .experienceBoxContents h3{font-size: 16px;}
+    .experienceBoxContents span{font-size: 14px;}
+    .experienceBoxContents .boxButtons button{
+
+        height: 40px;
+        font-size: 14px;
+        width: 96px;
+
+    }
+
+}

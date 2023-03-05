@@ -1,0 +1,107 @@
+#presentation{
+
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    height: 500px;
+    justify-content: space-between;
+    margin: 0 auto 70.5px auto;
+
+}
+
+#presentation #marginRightText{margin-right: 17px;}
+#presentation #profile{width: 24vw;}
+
+#mainTitle{
+
+    font-size: 52px;
+    line-height: 61px;
+    margin: 0;
+
+}
+
+#mainText{
+    
+    font-weight: 400;
+    font-size: 20px;
+    margin: 24px 0 26.5px 0;
+
+}
+
+#linksContacts{font-weight: 500;font-size: 16px;}
+
+/* Margin da imagem da seta */
+.arrowLink{margin-left: 7.69px;}
+
+@media screen and (max-width: 1042px){
+
+    #presentation {height: 100%;margin-bottom: 42.5px;}/*Tamanho padrão*/
+    #presentation #profile{width: 22vw;}
+
+    #mainTitle{font-size: 22px;line-height: 26px;}
+    #mainText{
+
+        font-size: 16px;
+        margin: 8px 0 10px 0;
+
+    }
+
+    #linksContacts a{font-size: 16px;}
+    .arrowLink{margin-left: 4.69px;}
+
+}
+
+@media screen and (max-width: 540px){
+
+    #presentation{
+
+        align-items:flex-start;
+        flex-direction: column-reverse;
+        margin-bottom: 16px;
+
+    }
+
+    #marginRightText{margin-right: 0px;}
+    #mainTitle{font-size: 22px;}
+    #mainText {
+
+        font-size: 14px;
+        margin: 16px 0;
+
+    }
+    
+    #linksContacts ul{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 0px;
+
+    }
+
+    #linksContacts a {font-size: 13px;}
+    .internalNavigation .spaceLeft{margin-left: 0px;}
+    #linksContacts .arrowLink{
+
+        margin-left: 3px;
+        width: 10.67px;
+
+    }
+
+}
+
+@media screen and (max-width: 351px){
+
+    #mainTitle {font-size: 17.4px;}
+    #mainText {
+
+        font-size: 11px;
+        margin: 9px 0;
+
+    }
+
+    #linksContacts a {font-size: 10px;}
+    #linksContacts .arrowLink {width: 6.67px;}
+
+}

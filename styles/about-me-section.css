@@ -1,0 +1,42 @@
+#aboutMe{
+
+    background: #EAF2FD;
+    height: 358px;
+    padding-bottom: 32px;
+
+}
+
+#aboutMe div{
+
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    justify-content: center;
+
+}
+
+#textBox{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+#aboutMe p:nth-child(3){margin-top: 0px;}
+#aboutMe img{width: 140px;}
+
+@media screen and (max-width: 827px){#textBox{font-size: 14px;}}
+@media screen and (max-width: 724px){
+
+    #textBox{font-size: 13px;}
+    .subhead {font-size: 22px;}
+    
+}
+@media screen and (max-width: 695px){
+
+    #textBox{font-size: 13px;}
+    .subhead {font-size: 22px;}
+    
+}
+@media screen and (max-width: 355px){#textBox{font-size: 10px;}}

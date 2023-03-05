@@ -1,0 +1,58 @@
+header{
+
+    display: flex;
+    font-weight: 500;
+    font-size: 1em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding:34.5px 0;
+
+}
+
+#svgBox__positionOfMinorStars{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#svgBox__positionOfMinorStars svg:nth-child(1){margin-bottom: 5px;}
+
+#svgBox{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-right: 10px;
+
+}
+
+@media screen and (max-width: 1042px){
+
+    .remove{display: none;}
+    .boxAlignment {width: 87vw;}
+
+}
+
+@media screen and (max-width: 540px){
+
+    #mobileLeft{margin-left: 0;}
+    #mobileLeft a{
+
+        font-weight: 400;
+        font-size: 14px;
+    
+    } 
+    #svgBox{margin-right: 5px;}
+
+
+}
+
+@media screen and (max-width: 351px){
+
+    #mobileLeft a {font-size: 12px;}
+    header span{font-size: .8em;}
+
+}
